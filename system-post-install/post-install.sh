@@ -11,6 +11,7 @@ paru -S niri-git xwayland-satellite-gi gyr zen-browser-bin discord-canary dropbo
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 rm ~/.zshrc
+cd ~/
 wget https://raw.githubusercontent.com/DraconicMentalist/dotfiles/refs/heads/main/.zshrc 
 
 # still needed:
