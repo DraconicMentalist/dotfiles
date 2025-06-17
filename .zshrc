@@ -18,7 +18,7 @@ alias run='"$@" </dev/null &>/dev/null & disown'
 alias cl='clear'
 alias cbc='wl-copy'
 alias cfg='git --git-dir=$HOME/dotfiles --work-tree=$HOME'
-alias lcfg='lazygit --git-dir=$HOME/dotfiles --work-tree=$HOME'
+alias lcfg='lazygit --git-dir $HOME/dotfiles --work-tree $HOME'
 alias lgit='lazygit'
 # ----------- YAZI
 function yy() {
