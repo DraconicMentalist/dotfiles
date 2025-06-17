@@ -153,4 +153,3 @@ if [[ -o zle ]]; then
     [[ "${+functions[compdef]}" -ne 0 ]] && \compdef __zoxide_z_complete z
 fi
 
-# ADDED TO TEST RESET COMMAND
