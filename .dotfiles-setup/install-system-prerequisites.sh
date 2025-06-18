@@ -1,4 +1,4 @@
-sudo pacman -S git python python-sh python-termcolor rustup hwinfo choose ripgrep fd gum fzf yazi zoxide btop vim ghostty rofi dolphin keepassxc xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring zsh yadm lazygit lsd wl-clipboard ouch nerd-fonts
+sudo pacman -S git python python-sh python-termcolor rustup hwinfo choose ripgrep fd gum fzf yazi zoxide btop vim ghostty rofi dolphin keepassxc xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring zsh yadm lazygit lsd wl-clipboard ouch
 rustup default stable
 rustup target add x86_64-pc-windows-msvc
 sudo pacman -S --needed base-devel
