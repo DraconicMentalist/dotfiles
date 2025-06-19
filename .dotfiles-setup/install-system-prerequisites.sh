@@ -8,7 +8,7 @@ cd repos
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
-paru -S niri-git xwayland-satellite-git gyr-bin zen-browser-bin discord-canary dropbox-cli ttf-maplemono
+paru -S niri-git xwayland-satellite-git gyr-bin zen-browser-bin discord-canary dropbox-cli ttf-maplemono dotter-rs-bin
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 curl -sS https://starship.rs/install.sh | sh
 
