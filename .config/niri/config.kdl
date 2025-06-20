@@ -1,5 +1,12 @@
 prefer-no-csd
 
+spawn-at-startup "xwayland-satellite"
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+
+environment {
+    DISPLAY ":1"
+}
+
 layout {
     gaps 10
     center-focused-column "never"
@@ -63,6 +70,8 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
+    Alt+Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
+    Mod+R hotkey-overlay-title="Launch a program" { spawn "rofi" "-show" "drun"; }
 
     // basic window controls
     Mod+Q repeat=false {close-window;}

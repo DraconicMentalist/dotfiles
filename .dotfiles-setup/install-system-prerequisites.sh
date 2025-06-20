@@ -1,17 +1,5 @@
-sudo pacman -S git python python-sh python-termcolor rustup hwinfo choose ripgrep fd gum fzf yazi zoxide btop vim ghostty rofi dolphin keepassxc xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring zsh lazygit lsd wl-clipboard ouch yadm python-j2cli
+sudo pacman -S git python python-sh python-termcolor rustup hwinfo choose ripgrep fd gum fzf yazi zoxide btop vim ghostty rofi-wayland dolphin keepassxc xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring zsh lazygit lsd wl-clipboard ouch yadm python-j2cli
 rustup default stable
 rustup target add x86_64-pc-windows-msvc
-sudo pacman -S --needed base-devel
-cd /tmp
-mkdir repos
-cd repos
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
-paru -S niri-git xwayland-satellite-git gyr-bin zen-browser-bin discord-canary dropbox-cli ttf-maplemono
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-curl -sS https://starship.rs/install.sh | sh
 
-rm ~/.zshrc
-cd ~/
-wget https://raw.githubusercontent.com/DraconicMentalist/dotfiles/refs/heads/main/.zshrc 
+
