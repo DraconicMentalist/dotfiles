@@ -1,0 +1,133 @@
+[gd_resource type="EditorSettings" load_steps=3 format=3]
+
+[sub_resource type="InputEventKey" id="InputEventKey_6ad8f"]
+device = -1
+ctrl_pressed = true
+physical_keycode = 82
+unicode = 114
+
+[sub_resource type="InputEventKey" id="InputEventKey_w8b67"]
+keycode = 4194326
+
+[resource]
+interface/editor/dock_tab_style = 1
+interface/editor/main_font_size = 12
+interface/editor/code_font_size = 12
+interface/editor/show_update_spinner = false
+interface/theme/preset = "Custom"
+interface/theme/spacing_preset = "Custom"
+interface/theme/base_color = Color(0.137255, 0.129412, 0.211765, 1)
+interface/theme/accent_color = Color(0.611765, 0.811765, 0.847059, 1)
+interface/theme/contrast = 0.5
+interface/theme/icon_saturation = 1.24
+interface/theme/relationship_line_opacity = 0.24
+interface/theme/corner_radius = 6
+interface/theme/base_spacing = 2
+interface/theme/additional_spacing = 1
+interface/theme/custom_theme = "/home/bea/Downloads/minimal_theme.tres"
+filesystem/external_programs/terminal_emulator = "kitty"
+docks/filesystem/thumbnail_size = 48
+text_editor/behavior/files/auto_reload_scripts_on_external_change = true
+text_editor/behavior/files/open_dominant_script_on_scene_change = true
+text_editor/external/exec_path = "/home/bea/bin/godot-nvim-bridge"
+text_editor/external/exec_flags = "{file} {line} {col}"
+text_editor/external/use_external_editor = true
+editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
+run/window_placement/game_embed_mode = -1
+network/connection/network_mode = 1
+project_manager/default_renderer = "gl_compatibility"
+export/android/java_sdk_path = ""
+export/android/android_sdk_path = ""
+export/android/debug_keystore = ""
+export/android/debug_keystore_pass = "android"
+export/macos/rcodesign = ""
+export/web/http_port = 8060
+export/web/tls_key = ""
+export/web/tls_certificate = ""
+export/windows/rcedit = ""
+export/windows/osslsigncode = ""
+export/windows/wine = ""
+_default_feature_profile = ""
+_use_favorites_root_selection = false
+network/debug_adapter/request_timeout = 1000
+network/debug_adapter/sync_breakpoints = true
+editors/3d_gizmos/gizmo_colors/path = Color(0.5, 0.5, 1, 0.9)
+editors/grid_map/editor_side = 1
+network/language_server/show_native_symbols_in_editor = true
+dotnet/editor/external_editor = 0
+dotnet/editor/custom_exec_path = ""
+dotnet/editor/custom_exec_path_args = ""
+dotnet/build/verbosity_level = 2
+dotnet/build/no_console_logging = false
+dotnet/build/create_binary_log = false
+dotnet/build/problems_layout = 1
+_editor_settings_advanced_mode = true
+_project_settings_advanced_mode = true
+_export_template_download_directory = ""
+_script_setup_templates_dictionary = {}
+_script_setup_use_script_templates = false
+asset_library/available_urls = {
+"godotengine.org (Official)": "https://godotengine.org/asset-library/api"
+}
+shortcuts = [{
+"name": "editor/reload_current_project",
+"shortcuts": [SubResource("InputEventKey_6ad8f")]
+}, {
+"name": "spatial_editor/viewport_zoom_modifier_1",
+"shortcuts": [SubResource("InputEventKey_w8b67")]
+}, {
+"name": "spatial_editor/viewport_zoom_modifier_2",
+"shortcuts": []
+}]
+metadata/script_setup_templates_dictionary = {
+"": "0ObjectEmpty",
+"AnimatedSprite2D": "0NodeDefault",
+"Button": "0NodeDefault",
+"Camera2D": "0NodeDefault",
+"ChannelRelay": "0ChannelRelayOrchestration",
+"Control": "0NodeDefault",
+"F": "0ObjectEmpty",
+"FS": "0ObjectEmpty",
+"Fi": "0ObjectEmpty",
+"Fin": "0ObjectEmpty",
+"Fini": "0ObjectEmpty",
+"Finit": "0ObjectEmpty",
+"Finite": "0ObjectEmpty",
+"FiniteS": "0ObjectEmpty",
+"FiniteSt": "0ObjectEmpty",
+"FiniteSta": "0ObjectEmpty",
+"FiniteStat": "0ObjectEmpty",
+"FiniteState": "0NodeDefault",
+"FiniteStateMachine": "0NodeDefault",
+"Label": "0NodeDefault",
+"M": "0ObjectEmpty",
+"Mo": "0ObjectEmpty",
+"Mon": "0ObjectEmpty",
+"Mons": "0ObjectEmpty",
+"Monst": "0ObjectEmpty",
+"Monste": "0ObjectEmpty",
+"Monster": "0CharacterBody2DBasic Movement",
+"MonsterB": "0ObjectEmpty",
+"MonsterBa": "0ObjectEmpty",
+"MonsterBas": "0ObjectEmpty",
+"MonsterBase": "0ObjectEmpty",
+"MonsterBaseS": "0ObjectEmpty",
+"MonsterBaseSt": "0ObjectEmpty",
+"MonsterBaseSta": "0ObjectEmpty",
+"MonsterBaseStat": "0ObjectEmpty",
+"MonsterBaseState": "0NodeDefault",
+"Node": "0NodeDefault",
+"Node2": "0ObjectEmpty",
+"Node2D": "0NodeDefault",
+"Node2d": "0ObjectEmpty",
+"R": "0ObjectEmpty",
+"Re": "0ObjectEmpty",
+"Res": "0ObjectEmpty",
+"Reso": "0ObjectEmpty",
+"Resou": "0ObjectEmpty",
+"Resour": "0ObjectEmpty",
+"Resourc": "0ObjectEmpty",
+"Resource": "0ObjectEmpty",
+"c": "0ObjectEmpty"
+}
+metadata/export_template_download_directory = "/home/bea/.cache/godot"

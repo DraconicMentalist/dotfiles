@@ -1,0 +1,17 @@
+res://Assets/Materials/rainbow.tres
+res://Assets/Materials/rainbow_texture.tres
+res://Assets/ParticleResources/bush.tres
+res://Assets/ParticleResources/dirt_pop.tres
+res://Assets/ParticleResources/mushroom_bounce.tres
+res://Assets/ParticleResources/mushroom_idle.tres
+res://Assets/ParticleResources/trashcan.tres
+res://Assets/ParticleResources/waterfall_particle.tres
+res://Assets/Shaders/extreme_water_main.tres
+res://Assets/Shaders/leaf_material.tres
+res://Assets/Shaders/waterfall.tres
+res://Assets/Shaders/wind.tres
+res://Assets/Themes/main.tres
+res://Assets/world_env.tres
+res://Scenes/Menus/Splash/splash.tscn
+res://Scenes/Singletons/SteamNetwork.gd
+res://default_bus_layout.tres
