@@ -3,6 +3,7 @@ prefer-no-csd
 spawn-at-startup "xwayland-satellite" ":12";
 spawn-at-startup "gsettings" "set" "org.gnome.desktop.interface" "color-scheme" "'prefer-dark'";
 spawn-at-startup "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1";
+spawn-at-startup "keepassxc";
 
 environment {
     DISPLAY ":12"
@@ -24,7 +25,7 @@ output "DP-1" {
 output "DP-3" {
     mode "1280x800"
     scale 1
-    transform "normal"
+    transform "180"
     position x=-1280 y=0
 }
 layout {
@@ -37,7 +38,7 @@ layout {
     }
 
 
-    default-column-width { proportion 0.5; }
+    default-column-width { proportion 0.35; }
 
 
     focus-ring {
@@ -49,8 +50,8 @@ layout {
 
     border {
         width 2
-        active-color "#ffc87f"
-        inactive-color "#505050"
+        active-color "#30A2A6"
+        inactive-color "#465959"
         urgent-color "#9b0000"
     }
 
@@ -91,6 +92,7 @@ binds {
 
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
     Alt+Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
+    Mod+Y hotkey-overlay-title="Launch Zen-Browser" { spawn "zen-browser"; }
     Mod+R hotkey-overlay-title="Launch a program" { spawn "rofi" "-show" "drun"; }
 
     // basic window controls
@@ -111,6 +113,12 @@ binds {
     Ctrl+Mod+W      { toggle-window-floating; }
     Mod+W { switch-focus-between-floating-and-tiling; }
     Mod+A repeat=false { toggle-overview; }
+    Mod+Alt+G { maximize-column; }
+    Mod+Ctrl+G { fullscreen-window; }
+    Mod+G { expand-column-to-available-width; }
+    Mod+B { center-column; }
+    Mod+Alt+B { center-visible-columns; }
+    Mod+E { toggle-column-tabbed-display; }
 
     Mod+WheelScrollUp {focus-column-right;}
     Mod+WheelScrollDown {focus-column-left;}
