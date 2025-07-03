@@ -1,11 +1,12 @@
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+path+='/home/cam/bin/'
 
 #------------ THEMES
 ZSH_THEME="robbyrussell"
 #------------ PLUGINS
-plugins=(git)
+plugins=(git colored-man-pages taskwarrior)
 
 #------------ OH-MY-ZSH STARTUP
 source $ZSH/oh-my-zsh.sh
@@ -14,7 +15,6 @@ source $ZSH/oh-my-zsh.sh
 alias ls='lsd --group-directories-first --sort extension'
 alias cd='z'
 alias nvd='run neovide'
-alias run='"$@" </dev/null &>/dev/null & disown'
 alias cl='clear'
 alias cbc='wl-copy'
 alias cfg='git --git-dir=$HOME/dotfiles --work-tree=$HOME'

@@ -6,7 +6,7 @@ ctrl_pressed = true
 physical_keycode = 82
 unicode = 114
 
-[sub_resource type="InputEventKey" id="InputEventKey_w8b67"]
+[sub_resource type="InputEventKey" id="InputEventKey_fn5yc"]
 keycode = 4194326
 
 [resource]
@@ -24,13 +24,13 @@ interface/theme/relationship_line_opacity = 0.24
 interface/theme/corner_radius = 6
 interface/theme/base_spacing = 2
 interface/theme/additional_spacing = 1
-interface/theme/custom_theme = "/home/bea/Downloads/minimal_theme.tres"
-filesystem/external_programs/terminal_emulator = "kitty"
+interface/theme/custom_theme = "/home/cam/.config/godot/themes/minimal_theme.tres"
+filesystem/external_programs/terminal_emulator = "ghostty"
 docks/filesystem/thumbnail_size = 48
 text_editor/behavior/files/auto_reload_scripts_on_external_change = true
 text_editor/behavior/files/open_dominant_script_on_scene_change = true
-text_editor/external/exec_path = "/home/bea/bin/godot-nvim-bridge"
-text_editor/external/exec_flags = "{file} {line} {col}"
+text_editor/external/exec_path = "/home/cam/programs/pvim/main/src/godot_bridge.py"
+text_editor/external/exec_flags = "{file} {line} {col} -n"
 text_editor/external/use_external_editor = true
 editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
 run/window_placement/game_embed_mode = -1
@@ -74,7 +74,7 @@ shortcuts = [{
 "shortcuts": [SubResource("InputEventKey_6ad8f")]
 }, {
 "name": "spatial_editor/viewport_zoom_modifier_1",
-"shortcuts": [SubResource("InputEventKey_w8b67")]
+"shortcuts": [SubResource("InputEventKey_fn5yc")]
 }, {
 "name": "spatial_editor/viewport_zoom_modifier_2",
 "shortcuts": []

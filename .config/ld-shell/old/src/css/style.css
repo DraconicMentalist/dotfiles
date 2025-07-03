@@ -1,0 +1,74 @@
+@define-color clr-base #191724;
+@define-color clr-surface #2a273f;
+@define-color clr-overlay #393552;
+@define-color clr-muted #6e6a86;
+@define-color clr-subtle #908caa; 
+@define-color clr-text #e0def4;
+@define-color clr-love #eb6f92;
+@define-color clr-gold #f6c177;
+@define-color clr-rose #ea9a97;
+@define-color clr-pine #3e8fb0;
+@define-color clr-foam #9ccfd8;
+@define-color clr-iris #c4a7e7;
+@define-color clr-highlight-low #2a283e;
+@define-color clr-highlight-med #44415a;
+@define-color clr-highlight-high #56526e;
+
+* {
+  all: unset;
+  font-family: 'FiraCode Nerd Font Mono';
+  font-size: 12px;
+  font-weight: 800;
+  color: @clr-text;
+  padding: 1px;
+  background-image: none;
+}
+
+window {
+  background-color: mix(transparent, @clr-surface, 0.8);
+}
+
+button {
+    background-image: none;
+    margin: 2px;
+    background-color: @clr-highlight-low;
+    border-radius: 1em;
+    padding: 4px 8px 4px;
+}
+
+#separator{
+    color: @clr-foam;
+    font-weight: 100;
+}
+
+#status-bar{
+    margin-bottom: 0px;
+}
+
+#workspace-button{
+    background-image: none;
+    margin: 2px;
+    border-width: 1px 2px;
+    padding: 4px 8px 4px;
+    border-radius: 0.75em;
+}
+
+#workspace-button.active{
+    border-color: mix(@clr-highlight-low, @clr-foam, 0.7);
+    background-color: mix(@clr-highlight-low, @clr-foam, 0.3);
+    border-width: 1px 2px;
+    border-style: solid;
+    transition-duration: 50ms;
+    margin:1px;
+}
+
+#workspace-button:hover{
+    min-width: 1.5em;
+    transition: ease-out;
+    border-radius: 0.75em;
+    transition-duration: 150ms;
+}
+
+button:hover {
+    background-color: mix(@clr-highlight-low, @clr-foam, 0.75);
+}
