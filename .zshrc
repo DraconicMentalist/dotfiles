@@ -2,6 +2,7 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 path+='/home/cam/bin/'
+path+='/home/cam/bin-base/'
 export EDITOR="nvim"
 
 #------------ THEMES
