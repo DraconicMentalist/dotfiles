@@ -1,7 +1,8 @@
 # [Created by task 3.4.1 7/2/2025 19:35:10]
 data.location=/home/cam/.task
 news.version=3.4.1
-
+regex=on
+search.case.sensitive=yes
 # To use the default location of the XDG directories,
 # move this configuration file from ~/.taskrc to ~/.config/task/taskrc and update location config as follows:
 
@@ -11,7 +12,8 @@ news.version=3.4.1
 # Color theme (uncomment one to use)
 #include light-16.theme
 #include light-256.theme
-#include bubblegum-256.theme
+include bubblegum-256.theme
+color.overdue=bold white on rgb401
 #include dark-16.theme
 #include dark-256.theme
 #include dark-red-256.theme
@@ -25,3 +27,5 @@ news.version=3.4.1
 #include solarized-light-256.theme
 #include no-color.theme
 
+context.PC.read=project:pc
+context.PC.write=project:pc

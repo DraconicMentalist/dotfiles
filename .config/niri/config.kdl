@@ -27,9 +27,9 @@ output "DP-1" {
 }
 output "DP-3" {
     mode "1280x800"
-    scale 1
+    scale 1.15
     transform "180"
-    position x=-1280 y=0
+    position x=-1114 y=0
 }
 layout {
     gaps 10

@@ -2,6 +2,7 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 path+='/home/cam/bin/'
+export EDITOR="nvim"
 
 #------------ THEMES
 ZSH_THEME="robbyrussell"
@@ -20,6 +21,13 @@ alias cbc='wl-copy'
 alias cfg='git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 # alias lcfg='lazygit --git-dir $HOME/dotfiles --work-tree $HOME'
 alias lgit='lazygit'
+
+alias ta='task add'
+alias tm='task modify'
+alias tst='task scheduled.before:eod'
+alias tsw='task scheduled.before:eod+1w'
+alias tsu='task -SCHEDULED'
+
 # ----------- YAZI
 function yy() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
